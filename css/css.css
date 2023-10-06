@@ -29,3 +29,35 @@
 #search-section span:hover {
   background-color: rgba(143, 251, 143, 0.5);
 }
+
+#all-plants {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.a-plant {
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.a-plant img {
+  border-radius: 10px 10px 0px 0px;
+  height: 30em;
+  width: fit-content;
+  display: block;
+}
+
+.a-plant div {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.a-plant span {
+  margin-left: 10px;
+  font-size: large;
+  font-weight: bold;
+}
